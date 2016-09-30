@@ -6,6 +6,7 @@ Chapter wise notes
 
 ### Preface
 
+- **foo** and **bar** respectively are generally used as generic file and directory names.
 
 ### Chapter 1 Getting Started
 
