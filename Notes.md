@@ -10,6 +10,8 @@ Chapter wise notes
 
 ### Chapter 1 Getting Started
 
+- Spaces around redirection (<, >) and piping (|) shell operators are irrelevant.
+
 
 ### Chapter 2 The UNIX Architecture and Command Usage
 
