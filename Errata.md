@@ -9,6 +9,7 @@ Chapter wise errata
 
 ### Chapter 1 Getting Started
 
+- The answer for question 1.6 under Test Your understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
 
 ### Chapter 2 The UNIX Architecture and Command Usage
 
