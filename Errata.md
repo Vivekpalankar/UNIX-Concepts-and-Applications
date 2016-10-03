@@ -9,9 +9,12 @@ Chapter wise errata
 
 ### Chapter 1 Getting Started
 
-- The answer for question 1.6 under Test Your understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
+- The answer for question 1.6 under Test Your Understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
+
 
 ### Chapter 2 The UNIX Architecture and Command Usage
+
+- The answer for question 2.12 under Test Your Understanding is partial. An option is also an argument but generally begins with a hyphen. It's given a special name because the list of options for a command is predetermined.
 
 
 ### Chapter 3 General-Purpose Utilities
