@@ -3,10 +3,10 @@
 Chapter wise notes
 
 
-
 ### Preface
 
 - **foo** and **bar** are used as generic file and directory names.
+
 
 ### Chapter 1 Getting Started
 
@@ -50,6 +50,12 @@ Chapter wise notes
 
 
 ### Chapter 4 The File System
+
+- Type `cd -` is a handy shortcut to switch to the last accessed directory.
+
+- UNIX file system is case sensitive. However, the default installation of macOS operating system uses a case insensitive HFS file system and hence disallows creating files sharing name with differing case.
+
+- To determine type of a file, type `file <filename>`.
 
 
 ### Chapter 5 Handling Ordinary Files
