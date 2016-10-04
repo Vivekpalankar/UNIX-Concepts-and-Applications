@@ -3,7 +3,6 @@
 Chapter wise errata
 
 
-
 ### Preface
 
 
@@ -21,6 +20,8 @@ Chapter wise errata
 
 
 ### Chapter 4 The File System
+
+- The answer for question 4.3 under Test Your Understanding is partial. Two files named note and Note can coexist in the same directory only if the underlying filesystem on disk is case sensitive.
 
 
 ### Chapter 5 Handling Ordinary Files
