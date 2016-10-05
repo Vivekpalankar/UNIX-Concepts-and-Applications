@@ -60,13 +60,13 @@ Chapter wise notes
 
 ### Chapter 5 Handling Ordinary Files
 
--   When running `cp -R <source_file> <destination_file>`, if the source\_file designates a directory, **cp** copies the directory and the entire subtree connected at that point. If the _source\_file_ ends in a _/_, the contents of the directory are copied rather than the directory itself.
+-   When running `cp -R <source_file> <destination_file>`, if the _source\_file_ designates a directory, **cp** copies the directory and the entire subtree connected at that point. If the _source\_file_ ends in a _/_, the contents of the directory are copied rather than the directory itself.
 
 -   Line ending character used across different operating systems:  
 
-        macOS/ UNIX (LF) (\n)  
-        Classic Mac OS (CR) (\r)  
-        Windows (CRLF) (\r\n)
+        macOS/ UNIX     (LF)    (\n)  
+        Classic Mac OS  (CR)    (\r)  
+        Windows         (CRLF)  (\r\n)
 
 
 ### Chapter 6 Basic File Attributes
