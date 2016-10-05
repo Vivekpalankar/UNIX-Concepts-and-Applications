@@ -116,10 +116,10 @@
 
     Examples of commands which support recursive operation:
 
-        cp command with -R option can recursively copy a directory hierarchy.
+    -   cp command with -R option can recursively copy a directory hierarchy.
 
-        rm command with -r option can recursively delete files in a directory hierarhcy.
+    -   rm command with -r option can recursively delete files in a directory hierarhcy.
 
-        ls command with -R option can recursively list files in a directory hierarchy.
+    -   ls command with -R option can recursively list files in a directory hierarchy.
 
-        zip command with -r option can recursively compress and archive a directory hierarchy.
+    -   zip command with -r option can recursively compress and archive a directory hierarchy.
