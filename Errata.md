@@ -8,12 +8,12 @@ Chapter wise errata
 
 ### Chapter 1 Getting Started
 
-- The answer for question 1.6 under Test Your Understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
+-   The answer for question 1.6 under Test Your Understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
 
 
 ### Chapter 2 The UNIX Architecture and Command Usage
 
-- The answer for question 2.12 under Test Your Understanding is partial. An option is also an argument but generally begins with a hyphen. It's given a special name because the list of options for a command is predetermined.
+-   The answer for question 2.12 under Test Your Understanding is partial. An option is also an argument but generally begins with a hyphen. It's given a special name because the list of options for a command is predetermined.
 
 
 ### Chapter 3 General-Purpose Utilities
@@ -21,10 +21,14 @@ Chapter wise errata
 
 ### Chapter 4 The File System
 
-- The answer for question 4.3 under Test Your Understanding is partial. Two files named note and Note can coexist in the same directory only if the underlying filesystem on disk is case sensitive.
+-   The answer for question 4.3 under Test Your Understanding is partial. Two files named note and Note can coexist in the same directory only if the underlying filesystem on disk is case sensitive.
 
 
 ### Chapter 5 Handling Ordinary Files
+
+-   Page 85, Section 5.3, second paragraph. First sentence reads: "You have already seen (5.3) how the UNIX system". It should be read as: "Later you will see (5.3) how the UNIX system".
+
+-   Page 100, Section 5.16, second paragraph. First sentence reads: "Only one these key options". It should be read as : "Only one of these key options".
 
 
 ### Chapter 6 Basic File Attributes
