@@ -62,6 +62,8 @@ Chapter wise notes
 
 -   When running `cp -R <source_file> <destination_file>`, if the _source\_file_ designates a directory, **cp** copies the directory and the entire subtree connected at that point. If the _source\_file_ ends in a _/_, the contents of the directory are copied rather than the directory itself.
 
+-   The rm utility removes symbolic links, not the files referenced by the links.
+
 -   Line ending character used across different operating systems:  
 
         macOS/ UNIX     (LF)    (\n)  
@@ -72,6 +74,8 @@ Chapter wise notes
 ### Chapter 6 Basic File Attributes
 
 -   _ls_ command has no option to display only directories.
+
+-   In macOS, if the file or directory has extended attributes, the permissions field printed by the -l option of the ls command is followed by a '@' character.  Otherwise, if the file or directory has extended security information (such as an access control list), the permissions field printed by the -l option is followed by a '+' character.
 
 
 ### Chapter 7 The vi Editor
