@@ -71,6 +71,8 @@ Chapter wise notes
 
 ### Chapter 6 Basic File Attributes
 
+-   _ls_ command has no option to display only directories.
+
 
 ### Chapter 7 The vi Editor
 
