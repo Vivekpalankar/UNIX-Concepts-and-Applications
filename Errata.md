@@ -36,6 +36,8 @@ Chapter wise errata
 
 ### Chapter 7 The vi Editor
 
+-   Page 123, In **Figure 7.2 The Three Modes**, the key to switch from Command Mode to Input Mode shows `I` twice. It shoule be `i, I` and not `I, I`.
+
 
 ### Chapter 8 The Shell
 
