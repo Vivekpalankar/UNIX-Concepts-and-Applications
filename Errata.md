@@ -41,6 +41,10 @@ Chapter wise errata
 
 ### Chapter 8 The Shell
 
+-   The answer for question 8.5 under Test Your Understanding contains a typo. "3 has a higher value than e in the ASCII" should be replaced with "3 has a higher value than h in the ASCII".
+
+-   For question 8.12 under Test Your Understanding, a possibly easier solution would be running the following command: `rm ./-foo`.
+
 
 ### Chapter 9 The Process
 
