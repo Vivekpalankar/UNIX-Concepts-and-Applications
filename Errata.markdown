@@ -1,11 +1,5 @@
 ## Errata
 
-Chapter wise errata
-
-
-### Preface
-
-
 ### Chapter 1 Getting Started
 
 -   The answer for question 1.6 under Test Your Understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
