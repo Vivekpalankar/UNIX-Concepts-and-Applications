@@ -1,10 +1,10 @@
 ## Notes
 
--   More than one command can be specified in a command line by seperating each one of them with a `;` character.
+-   More than one command can be specified in a command-line by seperating them with a `;` character.
 
 -   A sequence of one or more commands in a command-line can be grouped using parentheses.
 
--   To determine if a utility (also) exists as a shell builtin command, execute `type <command name>`. If it (also) exists as a shell builtin command, it will take precedence over the external one.
+-   To determine if a utility (also) exists as a shell builtin command, run `type utility`. If it (also) exists as a shell builtin command, it will take precedence over the external one.
 
 -   Manual page for a command can be located on disk by executing `man -w <command name>`.
 
