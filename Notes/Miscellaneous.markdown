@@ -1,3 +1,3 @@
 ## Notes
 
--   **foo** and **bar** are used as generic file and directory names.
+-   **foo** and **bar** are commonly used generic file and directory names.
