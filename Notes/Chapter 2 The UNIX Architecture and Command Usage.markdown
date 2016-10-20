@@ -1,10 +1,10 @@
 ## Notes
 
--   More than one command can be specified in a command-line by seperating them with a `;` character.
+-   More than one command can be specified in a command-line by separating them with a `;` character.
 
 -   A sequence of one or more commands in a command-line can be grouped using parentheses.
 
--   To determine if a utility (also) exists as a shell builtin command, run `type utility`. If it (also) exists as a shell builtin command, it will take precedence over the external one.
+-   To determine if a utility (also) exists as a shell built-in command, run `type utility`. If it (also) exists as a shell built-in command, it will take precedence over the external one.
 
 -   Manual page for a command can be located on disk by executing `man -w <command name>`.
 
@@ -28,4 +28,4 @@
 
 -   `[Ctrl-j]` and `[Ctrl-m]` key sequence generate _linefeed_ and _carriage return_ characters, respectively. Either one of them can be used in place of `[Enter]` key in the shell.
 
--    None of the above key sequences are standardised and may behave differently on different systems.
+-    None of the above key sequences are standardized and may behave differently on different systems.
