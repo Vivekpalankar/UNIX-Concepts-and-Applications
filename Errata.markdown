@@ -12,7 +12,7 @@
 
 -   Page 17, Section 1.6, first paragraph. _Many of the important Linux tools were written and supplied free by GNU._ The statement is slightly misleading. Contrary to the common perception, Linux is not an operating system. Linux project is aimed at creating an operating system kernel. Utilities created as a part of GNU project are often bundled with Linux kernel to form an Operating System distribution which is correctly called as GNU/Linux distribution. So it would be more appropriate to say, _Many of the free software tools written as part of the GNU project are often bundled with Linux kernel and made available as GNU/Linux operating system distribution._
 
--   Page 19, Wrap Up, last note. _Linux is a UNIX implementation that is constantly growing with contributions from the Free Software Foundation (formerly, GNU)._ Couple things of note here. Linux isn't dependant on the said contributions as it's an independent project. Secondly, Free Software Foundation wasn't formerly called GNU as discussed above.
+-   Page 19, Wrap Up, last note. _Linux is a UNIX implementation that is constantly growing with contributions from the Free Software Foundation (formerly, GNU)._ Couple things of note here. Linux isn't dependent on the said contributions as it's an independent project. Secondly, Free Software Foundation wasn't formerly called GNU as discussed above.
 
 -   The answer for question 1.6 under Test Your Understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
 
@@ -27,7 +27,7 @@
 
 ### Chapter 4 The File System
 
--   The answer for question 4.3 under Test Your Understanding is partial. Two files named note and Note can coexist in the same directory only if the underlying filesystem on disk is case sensitive.
+-   The answer for question 4.3 under Test Your Understanding is partial. Two files named note and Note can coexist in the same directory only if the underlying file-system on disk is case sensitive.
 
 
 ### Chapter 5 Handling Ordinary Files
@@ -42,7 +42,7 @@
 
 ### Chapter 7 The vi Editor
 
--   Page 123, In **Figure 7.2 The Three Modes**, the key to switch from Command Mode to Input Mode shows `I` twice. It shoule be `i, I` and not `I, I`.
+-   Page 123, In **Figure 7.2 The Three Modes**, the key to switch from Command Mode to Input Mode shows `I` twice. It should be `i, I` and not `I, I`.
 
 
 ### Chapter 8 The Shell
