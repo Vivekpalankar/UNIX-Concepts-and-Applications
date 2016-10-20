@@ -8,13 +8,13 @@
 
 -   A sequence of one or more commands in a command-line can be grouped using parentheses.
 
--   To determine if a utility (also) exists as a shell built-in command, run `type utility`. If it (also) exists as a shell built-in command, it will take precedence over the external one.
+-   To determine if a utility (also) exists as a shell built-in command, execute `type utility`. If it (also) exists as a shell built-in command, it will take precedence over the external one.
 
--   Manual page for a command can be located on disk by executing `man -w <command name>`.
+-   Manual page for a utility named **abc** can be located on disk by executing `man -w abc`.
 
--   Similar looking commands `whereis` and `which` have a subtle difference. `whereis` checks only standard binary directories, while `which` searches all the directories specified in the _PATH_ environment variable sequentially and displays the first match found. `which -a` prints all the matches found, in the order they are encountered in PATH.
+-   Commands `whereis` and `which`, which appear to have similar functionality have a subtle difference. `whereis` checks only standard binary directories, while `which` searches all the directories specified in the PATH environment variable sequentially and displays the first match found. `which -a` prints all the matches found, in the order they are encountered in the PATH.
 
--   Both `apropos` and `whatis` command search the _whatis_ database for a match. While `whatis` only matches complete words, `apropos` also lists partial matches. As such `whatis` should be preferred over `apropos`, as the latter may return irrelevant results.
+-   Both `whatis` and `apropos` command search the _whatis_ database (which is built separately from man pages) for a match. While `whatis` only matches complete words, `apropos` also lists partial matches. Thus the use of `whatis` may be preferred over `apropos` as the latter may return a lot of irrelevant results.
 
 -   `[Ctrl-c]` kills a command-line or interrupts a command in execution.
 
