@@ -18,17 +18,17 @@
 
     The program is referred to as the users Login shell. Some of the popular shell program generally available on a UNIX system are:
 
-        -   sh (the primitive Bourne Shell)
-        -   csh (C Shell)
-        -   ksh (Korn shell)
-        -   bash (an enhanced version of original Bourne shell)
+    -   sh (the primitive Bourne Shell)
+    -   csh (C Shell)
+    -   ksh (Korn shell)
+    -   bash (an enhanced version of original Bourne shell)
 
 
 04. What exactly happens when you enter this sequence: **ls > list**?
 
-    Instead of displaying the output of the **ls** command on the terminal, the information is saved in a file named _list_ in the current directory.
+    The output of the **ls** command is saved in a file named _list_ in the current directory.
 
-    The shell gets to see the redirection operator when the command line is entered. It opens the file following the > operator (here, _list_). Next the command **ls** runs and reads the directory file corresponding to the current directory. The shell has manipulated things so that the output of the **ls** command doesn't go to the terminal but is written to the file opened by the shell on its behalf.
+    The shell gets to see the redirection operator when interpreting the command line. It opens the file following the > operator (here, _list_). Next the command **ls** is run which reads the directory file corresponding to the current directory. The shell has manipulated things so that the output of the **ls** command doesn't go to the terminal but is written to the file opened by the shell on its behalf.
 
     _Note_:     The file is created anew if it doesn't already exist, or is overwritten with the command output if it does exist. An error occurs if either the named file exists and is not writable by the current user, or the named file doesn't exist and the directory is not writable by the user.
 
@@ -53,13 +53,13 @@
 
 07. Enter the following commands and note your observations: (i) **who** and **tty** (ii) **ps** and **echo $$**
 
-    (i) **who** command outputs a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and host-name if not local.
+    1.  **who** command outputs a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and host-name if not local.
 
-    **tty** command outputs the absolute path of the device file corresponding to the terminal attached to the standard input/output.
+        **tty** command outputs the absolute path of the device file corresponding to the terminal attached to the standard input/output.
 
-    (ii) **ps** command outputs a list of all the currently running processes corresponding to the logged in user.
+    2.  **ps** command outputs a list of all the currently running processes corresponding to the logged in user.
 
-    **echo $$** outputs the integer PID corresponding to the running shell process.
+        **echo $$** outputs the integer PID corresponding to the running shell process.
 
 
 08. Name the three commands that you would try in sequence to log yourself out of the system. Which one among them will always work?
@@ -71,7 +71,7 @@
 
     The user-id is used to uniquely identify a user in the operating system. user-id gets associated with any file or process created by the user.
 
-    The name is used to identify the user in a human friendly manner with other users and for display in command outputs.
+    The name is used to identify the user with other users and for display in command outputs.
 
 
 10. What is the one thing that is common to directories, devices, terminals and printers?
