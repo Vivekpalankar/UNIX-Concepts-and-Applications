@@ -21,7 +21,9 @@
 
 -   Page 42, Wrap Up, last note. _Use the section number when a keyword is not found in Section 1._ should be corrected to, _Use the section number when a keyword is found in more than one Section._
 
--   The answer for question 2.3 under Test Your Understanding needs a slight correction. _The shell scans the command for some..._ should be read as _The shell scans the command-line for some..._. _It then passes on the command to the..._ should be read as _It then passes on the command-line to the..._.
+-   The answer for question 2.3 under Test Your Understanding needs a slight correction. _The shell scans the command for some..._ should be read as _The shell scans the command-line for some..._.
+
+    _It then passes on the command to the..._ should be read as _It then passes on the command-line to the..._.
 
 -   The answer for question 2.12 under Test Your Understanding is partial. An option is also an argument but generally begins with a hyphen. It's given a special name because the list of options for a command is predetermined.
 
