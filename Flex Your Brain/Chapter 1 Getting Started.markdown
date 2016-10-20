@@ -16,7 +16,7 @@
 
 03. When you log in, a program starts executing at your terminal. What is this program known as? Name four types of this program that are available on a system.
 
-    The program is referred to as the users Login shell. Some of the popular shell programme generally available on a UNIX system are:
+    The program is referred to as the users Login shell. Some of the popular shell program generally available on a UNIX system are:
 
         -   sh (the primitive Bourne Shell)
         -   csh (C Shell)
@@ -48,12 +48,12 @@
 
     Two empty files named _README_ and _readme_ are created in the current directory.
 
-    _Note_: When running on a case-insensitive filesystem, only one file named _README_ is created. If either of the two files already exists, its content is overwritten with an empty file.
+    _Note_: When running on a case-insensitive file-system, only one file named _README_ is created. If either of the two files already exists, its content is overwritten with an empty file.
 
 
 07. Enter the following commands and note your observations: (i) **who** and **tty** (ii) **ps** and **echo $$**
 
-    (i) **who** command outputs a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and hostname if not local.
+    (i) **who** command outputs a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and host-name if not local.
 
     **tty** command outputs the absolute path of the device file corresponding to the terminal attached to the standard input/output.
 
@@ -69,19 +69,19 @@
 
 09. What is the significance of your user-id? Where in the system is the name used?
 
-    The user-id is used to uniquly identify a user in the operating system. user-id gets associated with any file or process created by the user.
+    The user-id is used to uniquely identify a user in the operating system. user-id gets associated with any file or process created by the user.
 
     The name is used to identify the user in a human friendly manner with other users and for display in command outputs.
 
 
 10. What is the one thing that is common to directories, devices, terminals and printers?
 
-    They are all represented as files in the UNIX filesystem.
+    They are all represented as files in the UNIX file-system.
 
 
 11. Name some of the duties of the system administrator that you have encountered so far.
 
-    Backing up files. Restoring a system to a usable state in case a crash occurs. Startup, shutdown and maintenance of the system. Adminstering the system. Creating and administaring user accounts. Updating system date.
+    Backing up files. Restoring a system to a usable state in case a crash occurs. Startup, shutdown and maintenance of the system. Administering the system. Creating and administering user accounts. Updating system date.
 
 12. What are the two schools of UNIX that initially guided its development?
 
