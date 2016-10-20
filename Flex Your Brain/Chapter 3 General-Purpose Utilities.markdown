@@ -42,11 +42,12 @@
 
     2.  printf "The value of 192 in octal is %o and hexadecimal is %x\n" 192 192
 
+    **bc** can be used to display the number in binary by setting `obase=2`.
 
 
 06. Run **ps**, the **script** command run **ps** again. What do you notice?
 
-    Running ps command spawns a sub-shell.
+    Running **script** command spawns a new shell process.
 
 
 07. In what way is the **mailx** command superior to a GUI program like Netscape or Mozilla?
