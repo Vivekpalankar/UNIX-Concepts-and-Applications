@@ -70,6 +70,8 @@
 
     By specifying the section number as a command argument as `man 1 <command>`, `man 5 <filename>` and `man 2 <system call>`. Alternatively, they all can be viewed in succession by passing `-a` argument to the man command.
 
+    Note: On GNU/Linux, the equivalent commands are `man -s1 <command>`, `man -s5 <filename>` and `man -s2 <system call>`.
+
 
 11. What do the | and the three dots in the SYNOPSIS section of these man pages indicate as shown below?
 
