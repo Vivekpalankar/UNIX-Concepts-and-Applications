@@ -8,7 +8,7 @@ Certain answer may vary based on interpretation of the question and system-speci
 
 Every effort will be made to ensure that the information provided is correct and complete. Referring to platform specific manual(s) before running any command or program is recommended.
 
-The publisher agreement explicitely prohibits reproduction and distribution of any part of the book in any form or by any means. No copyright infringment is intended and all rights belong where they are due.
+The publisher agreement explicitly prohibits reproduction and distribution of any part of the book in any form or by any means. No copyright infringement is intended and all rights belong where they are due.
 
 
 
