@@ -1,5 +1,9 @@
 ## Notes
 
+-   If a command takes filename(s) as argument, it is generally the last argument after all the options.
+
+-   The command along with its options and arguments is generally called _command-line_.
+
 -   More than one command can be specified in a command-line by separating them with a `;` character.
 
 -   A sequence of one or more commands in a command-line can be grouped using parentheses.
@@ -25,6 +29,8 @@
 -   `[Ctrl-s]` stops scrolling of the screen output.
 
 -   `[Ctrl-q]` resumes scrolling of the screen output.
+
+-   `[Ctrl-z]` suspends process and returns the shell prompt. Use **fg** command to resume job.
 
 -   `[Ctrl-j]` and `[Ctrl-m]` key sequence generate _linefeed_ and _carriage return_ characters, respectively. Either one of them can be used in place of `[Enter]` key in the shell.
 
