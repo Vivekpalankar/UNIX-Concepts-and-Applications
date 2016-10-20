@@ -8,6 +8,10 @@
 
 ### Chapter 1 Getting Started
 
+-   Page 17, Section 1.6, first paragraph. _Stallman runs the Free Software Foundation (formerly known as GNU - a recursive acronym that stands for "GNU's Not Unix!")._ The statement is misleading. Stallman founded Free Software Foundation (FSF) to support the free software movement and GNU is a free Unix-like operating system developed by FSF.
+
+-   Page 17, Section 1.6, first paragraph. _Many of the important Linux tools were written and supplied free by GNU._ The statement is slightly misleading. Contrary to the common perception, Linux is not an operating system. Linux project is aimed at creating an operating system kernel. Utilities created as a part of GNU project are often bundled with Linux kernel to form an Operating System distribution which is correctly called as GNU/Linux distribution. So it would be more appropriate to say, _Many of the free software tools written as part of the GNU project are often bundled with Linux kernel and made available as GNU/Linux operating system distribution._
+
 -   The answer for question 1.6 under Test Your Understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
 
 
