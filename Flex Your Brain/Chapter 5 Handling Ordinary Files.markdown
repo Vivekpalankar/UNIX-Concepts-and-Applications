@@ -25,16 +25,16 @@
 
 04. Assuming that bar is a directory, explain what the command **rm -rf bar** does. How is the command different from **rmdir bar**?
 
-    The command **rm -rf bar** will delete direcotry **bar** along with all the files and sub-directories recursively, disregarding the write protection status of any file or sub-directory and non-emptiness of any sub-directory.
+    The command **rm -rf bar** will delete directory **bar** along with all the files and sub-directories recursively, disregarding the write protection status of any file or sub-directory and non-emptiness of any sub-directory.
 
     The command **rmdir bar** will work only when the directory is not write-protected and is completely empty.
 
 
 05. What is the significance of these commands? (i) **mv $HOME/include .** (ii) **cp -r bar1 bar2** (iii) **mv * ../bin**
 
-    (i) **mv $HOME/include .**: The file or directory named _include_ present in the logged in users home direcotry is moved to the current working direcotry. The command fails if the user is currently in the home directory.
+    (i) **mv $HOME/include .**: The file or directory named _include_ present in the logged in users home directory is moved to the current working directory. The command fails if the user is currently in the home directory.
 
-    (ii) **cp -r bar1 bar2**: Recursively copy the contents of **bar1** to **bar2**. If **bar2** exists, Recursively copy contents of **bar1** into **bar2**, thus making the copy of **bar1** a sub-direcotry of **bar2**.
+    (ii) **cp -r bar1 bar2**: Recursively copy the contents of **bar1** to **bar2**. If **bar2** exists, Recursively copy contents of **bar1** into **bar2**, thus making the copy of **bar1** a sub-directory of **bar2**.
 
     (iii) **mv * ../bin**: Move all the files and directories in the current directory into a directory named **bin** in the parent directory. The command fails if the directory **bin** doesn't exist.
 
@@ -54,14 +54,14 @@
 
     `cd ; mv a temp ; mv temp/a . ; rmdir temp`
 
-    Change to the home direcotry. Then, first rename the directory _a_ under home directory to something other than _a_, say _temp_. Then move the directory _a_ under _temp_ directory to the current directory i.e. the home directory. Then remove the _temp_ directory normally as it is empty.
+    Change to the home directory. Then, first rename the directory _a_ under home directory to something other than _a_, say _temp_. Then move the directory _a_ under _temp_ directory to the current directory i.e. the home directory. Then remove the _temp_ directory normally as it is empty.
 
 
 08. Explain the significance of the repeat factor used in **more**. How do you search for the pattern include in a file and repeat the search? What is the difference between this repeat command and the dot command?
 
     Using repeat factor, an internal command can be repeated _n_ number of times.
 
-    Type `/include` to locate the first occurance of the pattern. Continue pressing the key `n` to repeat the search for the occurances on further pages.
+    Type `/include` to locate the first occurrence of the pattern. Continue pressing the key `n` to repeat the search for the occurrences on further pages.
 
     Using repeat factor, a command can be executed for a fixed number of times. The dot command on the other hand simply repeats the last command.
 
@@ -84,7 +84,7 @@
 
     DOS and UNIX text files differ by using different line ending characters. DOS uses the combination of _carriage return_ and _line feed_ characters (\r\n). Whereas, UNIX uses _line feed_ (\n).
 
-    _dos2unix_ command converts a text file from DOS format to UNIX format by removing the extra carriage return characters from the places where the line ending character combination occurs. _unix2dos_ command reverses the process by appending the carriage return character before every occurance of line feed character.
+    _dos2unix_ command converts a text file from DOS format to UNIX format by removing the extra carriage return characters from the places where the line ending character combination occurs. _unix2dos_ command reverses the process by appending the carriage return character before every occurrence of line feed character.
 
 
 12. You have two lists, foo1 and foo2, containing names of users. How do you create a third list of those users in foo2 who are absent in foo1? When will the command not work properly?
@@ -101,16 +101,16 @@
     To reverse the process, uncompress and unarchive the file by running the command: `tar -xvf archive.tar.gz`. This can be followed by deleting the compressed archive by running the command `rm archive.tar.gz`, to completely reverse the process.
 
 
-14. Name three advantages **zip** has over **gzip**. How do you use **zip** to send a complete directory structure to someone by email? How does the receipient recreate the directory structure at her end?
+14. Name three advantages **zip** has over **gzip**. How do you use **zip** to send a complete directory structure to someone by email? How does the recipient recreate the directory structure at her end?
 
     zip files can he handled easily both in Windows and UNIX. zip combines archiving and compressing under a single command. zip command provides facility to add / append files to an existing compressed archive.
 
-    To compress and archive a directory hierarchy to send via email run the command: `zip -r arhive.zip <direcotry_path>`.
+    To compress and archive a directory hierarchy to send via email run the command: `zip -r archive.zip <direcotry_path>`.
 
-    The receipient can easily recreate the directory structure by running the command: `unzip archive.zip`.
+    The recipient can easily recreate the directory structure by running the command: `unzip archive.zip`.
 
 
-15. What is meant by _recursive_ behaviour of a command? Name four commands, along with a suitable example of each, that can operate recursively.
+15. What is meant by _recursive_ behavior of a command? Name four commands, along with a suitable example of each, that can operate recursively.
 
     A command behaves recursively when it can descent a directory structure and examine and run over all the files and sub-directories and files thereof. 
 
@@ -118,7 +118,7 @@
 
     -   cp command with -R option can recursively copy a directory hierarchy.
 
-    -   rm command with -r option can recursively delete files in a directory hierarhcy.
+    -   rm command with -r option can recursively delete files in a directory hierarchy.
 
     -   ls command with -R option can recursively list files in a directory hierarchy.
 

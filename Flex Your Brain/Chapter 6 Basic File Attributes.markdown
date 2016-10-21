@@ -2,7 +2,7 @@
 
 01. How will you obtain a complete listing of all files and directories in the whole system and save the output in a file?
 
-    By running the command: `ls -lR / > listing.txt`. Root privilege may be required to run the command as many system direcotires are accessible to ordinary users.
+    By running the command: `ls -lR / > listing.txt`. Root privilege may be required to run the command as many system directories are accessible to ordinary users.
 
 
 02. Explain briefly the significance of the first four fields of the **ls -l** output. Who can change these attributes? Is there any attribute that can be changed only by the superuser?
@@ -31,7 +31,7 @@
 
     If **bar** is an ordinary file, both the commands display **bar** as the output.
 
-    If **bar** is a direcotry that contains only a single file or directory also named bar, than both the commands display **bar** as the output.
+    If **bar** is a directory that contains only a single file or directory also named bar, than both the commands display **bar** as the output.
 
 
 05. Does the owner always belong to the same group as the group owner of a file?
@@ -93,7 +93,7 @@
 
     Assume that the file is named foo.
 
-    Using relative assignemnt:
+    Using relative assignment:
 
     (i) `chmod a+rwx foo`
 

@@ -1,10 +1,10 @@
 ## Flex Your Brain
 
-01. When the shell finds metacharacters in the command line what does it do? When is the command finally executed?
+01. When the shell finds meta-characters in the command line what does it do? When is the command finally executed?
 
-    The shell performs all the actions represented by the metacharacters before executing the command line.
+    The shell performs all the actions represented by the meta-characters before executing the command line.
 
-    After completing this pre-processing step (wild-card expantion, variable evaluation, command substitution, opening appropriate files, connecting streams) shell submits the command line to the kernel for final execution.
+    After completing this pre-processing step (wild-card expansion, variable evaluation, command substitution, opening appropriate files, connecting streams) shell submits the command line to the kernel for final execution.
 
 
 02. Devise wild-card patterns to match the following filenames: (i) foo1, foo2 and Foo5 (ii) quit.c, quit.o and quit.h (iii) watch.htm, watch.HTML and Watch.html (iv) all filenames that begin with a dot and end with .swp
@@ -52,14 +52,14 @@
     **ls \*.** lists all the non-hidden files and directories whose name ends with a dot.
 
 
-07. You have a file named * and a direcotry named My Documents in the current directory. How do you remove them?
+07. You have a file named * and a directory named My Documents in the current directory. How do you remove them?
 
     By executing the `rm -rf My\ Documents ./*` command.
 
 
 08. Explain the significance of single and double quoting when one is preferred to the other.
 
-    Single and double quoting suppresses the special meaning of metacharacters and treats them literally. Double quoting is preferred when shell variable evaluation or command substitution is desired within the quoted string.
+    Single and double quoting suppresses the special meaning of meta-characters and treats them literally. Double quoting is preferred when shell variable evaluation or command substitution is desired within the quoted string.
 
 
 09. How do the commands **wc foo** and **wc < foo** differ? Who opens the file in each case?
@@ -73,7 +73,7 @@
 
 10. You want to concatenate two files, foo1 and foo2, but also insert some text after foo1 and before foo2 from the terminal. How will you do this?
 
-    By runnning the command: `cat foo1 - foo2`
+    By running the command: `cat foo1 - foo2`
 
 
 11. What happens when you use (i) **cat > foo** if foo contains data, (ii) **who >> foo** if foo doesn't exist, (iii) **cat foo > foo**, (iv) **echo 1> foo**?
@@ -89,7 +89,7 @@
 
 12. Execute the command **ls > newlist**. What interesting observation can you make from the contents of **newlist**?
 
-    newlist is present in the list of files alongwith other files listed as an output of ls command. newlist finds its way into the list as the shell opens the file before ls command comes into action.
+    newlist is present in the list of files along-with other files listed as an output of ls command. newlist finds its way into the list as the shell opens the file before ls command comes into action.
 
 
 13. What are _file descriptors_ and why is 2> used as the redirection symbol for standard error?

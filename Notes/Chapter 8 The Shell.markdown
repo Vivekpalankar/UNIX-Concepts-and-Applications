@@ -1,6 +1,6 @@
 ## Notes
 
--   The shell is a multi-faceted program. It's a command interpreter, a programming language and a process that creates environemnt for users to work in all rolled into one.
+-   The shell is a multi-faceted program. It's a command interpreter, a programming language and a process that creates environment for users to work in all rolled into one.
 
 -   List of valid shell wild-cards:  
 
@@ -21,13 +21,13 @@
 
 -   Escaping: Providing a `\` (backslash) before the wild-card to remove (escape) its special meaning.
 
--   Quoting: Enclosing wild-card(s) within quotes to supress its special meaning. When there are too many characters to escape, quoting can be a handy solution.
+-   Quoting: Enclosing wild-card(s) within quotes to suppress its special meaning. When there are too many characters to escape, quoting can be a handy solution.
 
 -   Shell uses space character to delimit command line arguments. It needs to be escaped using `\` (backslash).
 
--   Use backslash to escape a newline character, eg. when splitting a command line into multiple lines.
+-   Use backslash to escape a newline character, E.g. when splitting a command line into multiple lines.
 
--   Doublequote don't protect dollar ($, variable prefix) and backquote (`, command substitution) characters. Single quote protects all special characters. Double quotes protects single quotes and vice versa.
+-   Double-quote don't protect dollar ($, variable prefix) and back-quote (`, command substitution) characters. Single quote protects all special characters. Double quotes protects single quotes and vice versa.
 
 -   The shell makes available three special files. These special files are actually **streams** of characters which many commands see as input and output. A stream is simply a sequence of bytes. Each stream is associated with a default device.  
 
@@ -57,7 +57,7 @@
 
         Parsing:                    Breakup command-line into words.
         Variable evaluation:        All $-prefixed strings are evaluated.
-        Command substitution:       Commands surrounded by backticks are executed.
+        Command substitution:       Commands surrounded by back-ticks are executed.
         Redirection:                Shell opens appropriate files.
         Wild-Card interpretation:   Expanded into sorted list of filenames matching the pattern.
         PATH evaluation:            Searching for the command executable file in a predetermined list of directories.

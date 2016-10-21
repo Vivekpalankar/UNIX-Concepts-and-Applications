@@ -6,7 +6,7 @@
 -   Press `[Ctrl-p]` for string completion. The matches are cycled. To cycle backwards press `[Ctrl-n]`.
 -   10 ways to enter Input mode from command mode:  
 
-        i     Insert text to left of cursor (existing text shifed right)
+        i     Insert text to left of cursor (existing text shifted right)
         a     Append text to right of cursor (existing text shifted right)
         I     Inserts text at beginning of line (existing test shifted right)
         A     Appends text at the end of line
@@ -42,23 +42,23 @@
 -   `x` is the text deletion command. The character under the cursor gets deleted, and the text on the right shifts left to fill up the space. If the cursor is at the end of line, next line is not pulled up, rather the characters to left are deleted.
 -   The deletion of text towards left is handled by `X` command. Keep it pressed to delete all text to the beginning of the line.
 -   `J` join the current line and the line following it.
--   The three commands, `/` (search), `n` (repeat search) and `.` (repeat last editing command), form a wonderful trio of search - search-repeat - edit-repeat commands. You'll often be tempted to use this trio in many situations where you want the same change to be carried out at a number of places. For instance, if you want to replace some occurances of int with double, then first search for int with `/int`, change int to double with `3s`, repeat the search with `n`, and press `.` whenever you want the replacement to take place. To exclued embedded matched like printf, use regular expressions.
--   To startup vim by specifying a pattern, use the `+/` symbol before the pattern. E.g. To open file named _notes_ with the cursor station on the line containing the first occurance of the word _UNIX_, enter: `vim +/UNIX notes` as command line.
--   The syntax for subtitution in vim is `:s` (s comes after specifying the address part):  
+-   The three commands, `/` (search), `n` (repeat search) and `.` (repeat last editing command), form a wonderful trio of search - search-repeat - edit-repeat commands. You'll often be tempted to use this trio in many situations where you want the same change to be carried out at a number of places. For instance, if you want to replace some occurrences of int with double, then first search for int with `/int`, change int to double with `3s`, repeat the search with `n`, and press `.` whenever you want the replacement to take place. To exclude embedded matched like printf, use regular expressions.
+-   To startup vim by specifying a pattern, use the `+/` symbol before the pattern. E.g. To open file named _notes_ with the cursor station on the line containing the first occurrence of the word _UNIX_, enter: `vim +/UNIX notes` as command line.
+-   The syntax for substitution in vim is `:s` (s comes after specifying the address part):  
         `:address/source_pattern/target_pattern/flags`  
 
     -   Address can be one or a pair of numbers separated by commas.
 
-    -   The most comman flag is `g` which carries out the substitution for all occurances of pattern in a line.
+    -   The most common flag is `g` which carries out the substitution for all occurrences of pattern in a line.
 
     -   % can be used instead of 1,$ for address.
 
-    -   If target pattern is left out, occurances of source pattern are deleted.
+    -   If target pattern is left out, occurrences of source pattern are deleted.
 
-    -   If `g` flag is left out, the substituion is carried out for the first occurance in each addressed line.
+    -   If `g` flag is left out, the substitution is carried out for the first occurrence in each addressed line.
 
-    -   Add c in flag for inteactive substitution `gc`
+    -   Add c in flag for interactive substitution `gc`
         -   `y` confirms substitution
-        -   `n` denys substitution
+        -   `n` deny substitution
         -   `q` aborts substitution
         -   `a` makes substitution non-interactive

@@ -14,7 +14,7 @@
 
 03. How do you remove the characters that you just inserted above without using the undo feature?
 
-    Since the cursor is still placed at the last character of the line, press `x` twice to delete two characters at the end of the line. Now press `0` to move to the beginning of the line. Again press `x` twice to delete the two charactes at the beginning of the line.
+    Since the cursor is still placed at the last character of the line, press `x` twice to delete two characters at the end of the line. Now press `0` to move to the beginning of the line. Again press `x` twice to delete the two characters at the beginning of the line.
 
 
 04. How do you move to line number 100 and then write the remaining lines (including that line) to a separate file?
@@ -67,7 +67,7 @@
     When a number of editing changes have been made to a single line, pressing `U` will discard all the changes made since the cursor was moved to the line.
 
 
-12. Name the commands required to noninteractively replace all occurances of cnt with count in (i) the first 10 lines, (ii) the current line, (iii) all lines. How do you repeat the exercise in an interactive manner?
+12. Name the commands required to non-interactively replace all occurrences of cnt with count in (i) the first 10 lines, (ii) the current line, (iii) all lines. How do you repeat the exercise in an interactive manner?
 
     (i) `:1,10s/cnt/count/g`
 
