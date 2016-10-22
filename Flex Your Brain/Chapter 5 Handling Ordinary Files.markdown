@@ -2,7 +2,7 @@
 
 01. Describe the contents of a directory, explaining the mechanism by which its entries are updated. Why is the size of a directory usually small?
 
-    A directory is technically a file that contains the name and the inode number of the files and directories it houses. The entries in a directory are updated by the kernel on the users behalf when new files and subdirectories are added or removed.
+    A directory is technically a file that contains the name and the inode number of the files and sub-directories it houses. The entries in a directory are updated by the kernel on the users behalf when new files and sub-directories are added or removed.
 
     The size of a directory is usually small as it doesn't actually store the files and sub-directories it houses, just their name and inode numbers.
 
@@ -18,9 +18,9 @@
 
 03. Will the command **cp foo bar** work if (i) foo is an ordinary file and bar is a directory, (ii) both foo and bar are directories?
 
-    (i) Yes. The file **foo** will be copied into the directory **bar**.
+    1.  Yes. The file **foo** will be copied into the directory **bar**.
 
-    (ii) No. An error message is displayed stating **foo** is a directory and is not copied.
+    2.  No. An error message is displayed stating **foo** is a directory and is not copied.
 
 
 04. Assuming that bar is a directory, explain what the command **rm -rf bar** does. How is the command different from **rmdir bar**?
@@ -32,20 +32,20 @@
 
 05. What is the significance of these commands? (i) **mv $HOME/include .** (ii) **cp -r bar1 bar2** (iii) **mv * ../bin**
 
-    (i) **mv $HOME/include .**: The file or directory named _include_ present in the logged in users home directory is moved to the current working directory. The command fails if the user is currently in the home directory.
+    1.  **mv $HOME/include .**: The file or directory named _include_ present in the logged in users home directory is moved to the current working directory. The command fails if the user is currently in the home directory.
 
-    (ii) **cp -r bar1 bar2**: Recursively copy the contents of **bar1** to **bar2**. If **bar2** exists, Recursively copy contents of **bar1** into **bar2**, thus making the copy of **bar1** a sub-directory of **bar2**.
+    2.  **cp -r bar1 bar2**: Recursively copy the contents of **bar1** to **bar2**. If **bar2** exists, Recursively copy contents of **bar1** into **bar2**, thus making the copy of **bar1** a sub-directory of **bar2**.
 
-    (iii) **mv * ../bin**: Move all the files and directories in the current directory into a directory named **bin** in the parent directory. The command fails if the directory **bin** doesn't exist.
+    3.  **mv * ../bin**: Move all the files and directories in the current directory into a directory named **bin** in the parent directory. The command fails if the directory **bin** doesn't exist.
 
 
 06. The command **cp hosts backup/hosts.bak** didn't work even though all files exist. Name three possible reasons.
 
-    (i) Read permission not available for the file **hosts**.
+    1.  Read permission not available for the file **hosts**.
 
-    (ii) Write permission not available for the file **hosts.bak**.
+    2.  Write permission not available for the file **hosts.bak**.
 
-    (iii) Execute permission not available for the directory backup.
+    3.  Execute permission not available for the directory backup.
 
 
 07. You have a directory structure $HOME/a/a/b/c where the first a is empty. How do you remove it and move the lower directories up?
@@ -75,16 +75,16 @@
 
 10. A file foo contains a list of filenames, with one filename in each line. One of the filenames appears to have an embedded space. How will you (i) count the number of filenames, (ii) check whether there's actually an embedded space in a filename?
 
-    (i) We can count the number of filenames using `wc -l` command. This command outputs the total number of lines in the file.
+    1.  We can count the number of filenames using `wc -l` command. This command outputs the total number of lines in the file.
 
-    (ii) By displaying the octal dump of the files contents using the command `od -bc <filename>` and verifying the presence of a space character (ASCII value of the character representing space is 040 in octal).
+    2.  By displaying the octal dump of the files contents using the command `od -bc foo` and verifying the presence of a space character (ASCII value of space character is 040 in octal).
 
 
 11. How do DOS and UNIX text files differ? Name the utilities that convert files between these two formats?
 
     DOS and UNIX text files differ by using different line ending characters. DOS uses the combination of _carriage return_ and _line feed_ characters (\r\n). Whereas, UNIX uses _line feed_ (\n).
 
-    _dos2unix_ command converts a text file from DOS format to UNIX format by removing the extra carriage return characters from the places where the line ending character combination occurs. _unix2dos_ command reverses the process by appending the carriage return character before every occurrence of line feed character.
+    **dos2unix** command converts a text file from DOS format to UNIX format by removing the extra carriage return characters from the places where the line ending character combination occurs. **unix2dos** command reverses the process by appending the carriage return character before every occurrence of line feed character.
 
 
 12. You have two lists, foo1 and foo2, containing names of users. How do you create a third list of those users in foo2 who are absent in foo1? When will the command not work properly?
@@ -103,9 +103,9 @@
 
 14. Name three advantages **zip** has over **gzip**. How do you use **zip** to send a complete directory structure to someone by email? How does the recipient recreate the directory structure at her end?
 
-    zip files can he handled easily both in Windows and UNIX. zip combines archiving and compressing under a single command. zip command provides facility to add / append files to an existing compressed archive.
+    zip files can he handled easily both in Windows and UNIX. zip combines archiving and compressing under a single command. zip command provides facility to add/append files to an existing compressed archive.
 
-    To compress and archive a directory hierarchy to send via email run the command: `zip -r archive.zip <direcotry_path>`.
+    To compress and archive a directory hierarchy to send via email run the command: `zip -r archive.zip direcotry_path`.
 
     The recipient can easily recreate the directory structure by running the command: `unzip archive.zip`.
 
