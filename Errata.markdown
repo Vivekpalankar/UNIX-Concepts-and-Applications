@@ -38,9 +38,11 @@
 
 ### Chapter 5 Handling Ordinary Files
 
--   Page 85, Section 5.3, second paragraph. First sentence reads: "You have already seen (5.3) how the UNIX system". It should be read as: "Later you will see (5.3) how the UNIX system".
+-   Page 85, second paragraph. First sentence, _You have already seen (5.3) how the UNIX system._ should be read as _Later you will see (5.3) how the UNIX system._
 
--   Page 100, Section 5.16, second paragraph. First sentence reads: "Only one these key options". It should be read as : "Only one of these key options".
+-   Page 97, last paragraph. _One some systems..._ should be corrected to _On some systems..._.
+
+-   Page 100, Section 5.16, second paragraph. First sentence, _Only one these key options..._ should be read as _Only one of these key options..._.
 
 
 ### Chapter 6 Basic File Attributes
