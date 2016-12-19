@@ -35,11 +35,11 @@
 
 05. Attempt the variable assignment x=10 by providing a space on either end of the =. Why doesn't it work?
 
-    The shell programming syntax states that there should be no spaces on either side of = operator.
+    The shell programming syntax requires that there should be no spaces on either side of `=` operator.
 
     When entering `x =10`, _x_ is treated as a command by the shell. Since there is no command (internal or external) named _x_, the shell shows an appropriate error message stating that the command doesn't exist.
 
-    Similar error occurs in case `x= 10` is entered where _10_ is treated as a command, but the shell fails to locate it.
+    Similar error occurs in case `x= 10` is entered where _10_ is treated as a command, and shell tries to locate and execute it, but fails to do so. The `x=` part is seen as a variable assignment valid only for the scope of `10` command.
 
 
 06. Run the following commands and then invoke **ls**. What do you conclude?  
