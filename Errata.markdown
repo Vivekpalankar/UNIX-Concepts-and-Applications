@@ -14,6 +14,8 @@
 
 -   Page 19, Wrap Up, last note. _Linux is a UNIX implementation that is constantly growing with contributions from the Free Software Foundation (formerly, GNU)._ Couple things of note here. Linux isn't dependent on the said contributions as it's an independent project. Secondly, Free Software Foundation wasn't formerly called GNU as discussed above.
 
+-   The answer for question 1.5 under Test Your Understanding is incomplete. Entering the sequence `> user.lst` creates a blank file named user.lst in the current directory. Removing the space doesn't make any difference.
+
 -   The answer for question 1.6 under Test Your Understanding is partial. The command **ls | wc -l** prints the count of non-hidden files and directories in the current directory.
 
 
