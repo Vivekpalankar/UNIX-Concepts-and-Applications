@@ -18,9 +18,9 @@
 
 03. What do multiprogramming, multiuser and multitasking mean?
 
-    Multiprogramming means keeping multiple programs in the system memory at the same time.
+    Multiprogramming means ability to keep multiple programs in the system memory at the same time.
 
-    Multiuser means ability to support multiple users at the same time and allowing them to use a single installation of UNIX simultaneously.
+    Multiuser means ability to support multiple users at the same time and allowing them to use a single installation of an operating system simultaneously.
 
     Multitasking means ability to execute multiple tasks concurrently and even switch between them.
 
