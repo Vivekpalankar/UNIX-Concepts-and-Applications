@@ -15,3 +15,5 @@
 -   Commands `whereis` and `which`, which appear to have similar functionality have a subtle difference. `whereis` checks only standard binary directories, while `which` searches all the directories specified in the PATH environment variable sequentially and displays the first match found. `which -a` prints all the matches found, in the order they are encountered in the PATH.
 
 -   Both `whatis` and `apropos` command search the _whatis_ database (which is built separately from man pages) for a match. While `whatis` only matches complete words, `apropos` also lists partial matches. Thus the use of `whatis` may be preferred over `apropos` as the latter may also return a lot of irrelevant results.
+
+-   `whatis` can be emulated by executing `man -f`. `apropos` can be emulated by executing `man -k`.
