@@ -12,7 +12,7 @@
 
     -   `[Ctrl-h]` erases character just like `[Backspace]` key.
 
-    -   `[Ctrl-u]` delete all the text to the left of the cursor.
+    -   `[Ctrl-u]` delete all the text to the left of the cursor. Also known as the line-kill character.
 
     -   `[Ctrl-k]` delete all the text to the right of the cursor.
 
@@ -40,6 +40,10 @@
 
     -   `[Ctrl-c]` kills a command-line or interrupts a command in execution.
 
-    -   `[Ctrl-z]` suspends process and returns the shell prompt. Use **fg** command to resume job in foreground or **bg** in background. 
+    -   `[Ctrl-\]` kills running command but creates a core file containing the memory image of the program (The quit character).
+
+    -   `[Ctrl-z]` suspends process and returns the shell prompt (The suspend character). Use **fg** command to resume job in foreground or **bg** in background. 
 
     -   `echo $?` displays the exit status of the last command.
+
+-   `stty sane` restores terminal to normal status (a UNIX command).
