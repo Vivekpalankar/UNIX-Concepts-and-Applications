@@ -53,7 +53,7 @@
 
 07. Enter the following commands and note your observations: (i) **who** and **tty** (ii) **ps** and **echo $$**
 
-    1.  **who** command outputs a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and host-name if not local.
+    1.  **who** command outputs a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login and host-name if not local.
 
         **tty** command outputs the absolute path of the device file corresponding to the terminal attached to the standard input/output.
 
