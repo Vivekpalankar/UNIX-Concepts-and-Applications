@@ -3,7 +3,7 @@
 
 ### Preface
 
--   Throughout the book Linux is referred to as an important Unix implementation. Although Linux is generally referred to an operating system, technically it is an operating system kernel. A kernel, despite being a very important component doesn't form a complete usable system. Unix utilities written as a part of [Free Software Foundation's](http://www.fsf.org/) [GNU](https://www.gnu.org/) project are often bundled with [Linux kernel](https://www.kernel.org/) to form a usable operating system distribution. Thus, it will be more appropriate to call the resulting system as [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html).
+-   Throughout the book Linux is referred to as an important Unix implementation. Although Linux is generally referred to as an operating system, technically it is an operating system kernel. A kernel, despite being a very important component doesn't form a complete usable system. Unix utilities written as a part of [Free Software Foundation's](http://www.fsf.org/) [GNU](https://www.gnu.org/) project are often bundled with [Linux kernel](https://www.kernel.org/) to form a usable operating system distribution. Thus, it will be more appropriate to call the resulting system as [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html).
 
 
 ### Chapter 1 Getting Started
