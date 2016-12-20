@@ -19,6 +19,6 @@
         \\      Backslash
         \0n     ASCII character represented by the octal value n, where n can't exceed 0377 (decimal value 255)
 
--   `printf` command is a POSIX compliant, recommended alternative to `echo` command.
+-   `printf` command is a POSIX compliant and its use is recommended over `echo` command.
 
 -   Use `stty` command to display and set terminal attributes.
