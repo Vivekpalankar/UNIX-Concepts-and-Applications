@@ -11,9 +11,9 @@
 
     **cat foo**: Displays the contents of the file **foo** on the terminal.
 
-    **cat > foo**: Doesn't return the prompt and let the user type any text. On encountering end-of-file ([Ctrl-d]) character, the entered text is saved in a file named **foo** in the current directory.
+    **cat > foo**: Doesn't return the prompt and let the user type any text. On encountering end-of-file `[Ctrl-d]` character, the entered text is saved in a file named **foo** in the current directory.
 
-    Use of [Ctrl-D] character is required when entering the text from standard input to let the shell know that the text entry is over.
+    Use of `[Ctrl-D]` character is required when entering the text from standard input to let the shell know that the text entry is over.
 
 
 03. Will the command **cp foo bar** work if (i) foo is an ordinary file and bar is a directory, (ii) both foo and bar are directories?
@@ -116,10 +116,10 @@
 
     Examples of commands which support recursive operation:
 
-    -   cp command with -R option can recursively copy a directory hierarchy.
+    -   `cp` command with `-R` option can recursively copy a directory hierarchy.
 
-    -   rm command with -r option can recursively delete files in a directory hierarchy.
+    -   `rm` command with `-r` option can recursively delete files in a directory hierarchy.
 
-    -   ls command with -R option can recursively list files in a directory hierarchy.
+    -   `ls` command with `-R` option can recursively list files in a directory hierarchy.
 
-    -   zip command with -r option can recursively compress and archive a directory hierarchy.
+    -   `zip` command with `-r` option can recursively compress and archive a directory hierarchy.
