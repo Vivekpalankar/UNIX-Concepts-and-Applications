@@ -13,7 +13,7 @@
 
     The third column shows the username of the file owner.
 
-    The fourth column shows the group owner of the file.
+    The fourth column names the group that owns the file (by default this is the primary group of the file owner).
 
     These attributes can be changed by the owner of the file as well as the system administrator. (Depending on the release of UNIX i.e. AT&T or BSD. See answer 12 below).
 
