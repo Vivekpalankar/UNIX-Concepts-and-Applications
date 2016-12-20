@@ -11,7 +11,7 @@
 
 02. How does the device file help in accessing the device?
 
-    A device file helps in accessing a device by making itself available for reading and writing via system calls.
+    A device file helps in accessing a device by making itself available for reading and writing via system calls and by setting appropriate file attributes.
 
 
 03. Which of these commands will work? Explain with reasons: (i) **mkdir a/b/c** (ii) **mkdir a a/b** (iii) **rmdir a/b/c** (iv) **rmdir a a/b** (v) **mkdir /bin/foo**
@@ -59,7 +59,7 @@
 
 10. What is the sort order prescribed by the ASCII collating sequence?
 
-    numbers followed by uppercase alphabets followed by lowercase alphabets.
+    Numbers followed by uppercase alphabets followed by lowercase alphabets.
 
 
 11. Assuming that you are positioned in the directory /home/kumar, what are these commands presumed to do and explain whether they will work at all: (i) **cd ../..** (ii) **mkdir ../bin** (iii) **rmdir ..** (iv) **ls ..**
