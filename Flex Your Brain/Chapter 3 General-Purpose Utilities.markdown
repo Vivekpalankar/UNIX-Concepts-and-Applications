@@ -27,7 +27,7 @@
 
 04. Why doesn't this command run in the way it is meant to? **printf "Filename: %s\n", fname**
 
-    The comma character is not required after the first argument. If fname needs to be evaluated as a variable it should be preceded by $ character. The altered command line would read:
+    The comma character is not required after the first argument. fname needs to be evaluated as a variable and should be preceded by $ character. The correct command line would be:
 
     `printf "Filename: %s\n" $fname`
 
