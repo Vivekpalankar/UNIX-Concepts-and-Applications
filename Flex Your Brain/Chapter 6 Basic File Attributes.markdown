@@ -2,7 +2,7 @@
 
 01. How will you obtain a complete listing of all files and directories in the whole system and save the output in a file?
 
-    By running the command: `ls -lR / > listing.txt`. Root privilege may be required to run the command as many system directories are accessible to ordinary users.
+    By running the command: `ls -lR / > listing.txt`. Root privilege may be required to run the command as many system directories do not have read and execute permissions for non-administrative users, hence are inaccessible.
 
 
 02. Explain briefly the significance of the first four fields of the **ls -l** output. Who can change these attributes? Is there any attribute that can be changed only by the superuser?
