@@ -37,6 +37,8 @@
 
 -   The answer for question 4.3 under Test Your Understanding is partial. Two files named note and Note can coexist in the same directory only if the underlying file-system on disk is case sensitive.
 
+-   The answer for question 4.9 under Test Your Understanding is partial. Another possible reason could be that the user doesn't have write permission for the parent directory of **c_progs**.
+
 
 ### Chapter 5 Handling Ordinary Files
 
