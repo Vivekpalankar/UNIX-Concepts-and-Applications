@@ -54,6 +54,8 @@
 
 ### Chapter 7 The vi Editor
 
+-   Page 121, Section 7.1, fifth paragraph. First sentence, _After text entry is complete, the cursor is positioned on the last character of the last line._ should be corrected to, _After text entry is complete, the cursor is positioned to the right of the last character of the last line._
+
 -   Page 123, In **Figure 7.2 The Three Modes**, the key to switch from Command Mode to Input Mode shows `I` twice. It should be `i, I` and not `I, I`.
 
 
